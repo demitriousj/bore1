@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  prof: MyString
+  time: 2014-02-03 18:45:03
+  credits: 1.5
+  semester: MyString
+
+two:
+  prof: MyString
+  time: 2014-02-03 18:45:03
+  credits: 1.5
+  semester: MyString

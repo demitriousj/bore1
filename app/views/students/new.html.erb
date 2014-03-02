@@ -1,0 +1,17 @@
+<h1>Students#new</h1>
+<p>Find me in app/views/students/new.html.erb</p>
+<div>
+<%= form_for @student do |f| %>
+<p>
+	<%= f.label :First_Name %>
+	<%= f.text_field :fname %>
+	<%= f.label :Last_Name %>
+	<%= f.text_field :lname %>
+	<hr>
+	<%= f.label :Major %>
+	<%= f.text_field :major %>
+	<hr>
+	<%= f.submit "sign up" %>
+</p>
+<% end %>
+</div>
